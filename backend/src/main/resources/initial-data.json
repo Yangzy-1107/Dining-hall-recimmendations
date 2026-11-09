@@ -1,0 +1,502 @@
+[
+  {
+    "name": "同乐食堂",
+    "stalls": [
+      {
+        "name": "港式烧腊饭",
+        "averagePrice": 14.0,
+        "rating": 4.6,
+        "dishes": [
+          {
+            "name": "烧鸭饭",
+            "price": 14.0,
+            "category": "快餐"
+          },
+          {
+            "name": "猪脚饭",
+            "price": 13.88,
+            "category": "快餐"
+          },
+          {
+            "name": "手撕鸡饭",
+            "price": 13.0,
+            "category": "快餐"
+          },
+          {
+            "name": "叉烧饭",
+            "price": 14.0,
+            "category": "快餐"
+          }
+        ]
+      },
+      {
+        "name": "匠心卤热卤拌饭",
+        "averagePrice": 12.0,
+        "rating": 4.8,
+        "dishes": [
+          {
+            "name": "椒麻鸡肉饭",
+            "price": 12.0,
+            "category": "快餐"
+          },
+          {
+            "name": "卤汁鸡排饭",
+            "price": 10.0,
+            "category": "快餐"
+          },
+          {
+            "name": "卤香鸡腿饭",
+            "price": 12.0,
+            "category": "快餐"
+          },
+          {
+            "name": "软糯肘子饭",
+            "price": 12.0,
+            "category": "快餐"
+          }
+        ]
+      },
+      {
+        "name": "大可鱼酸菜鱼米饭",
+        "averagePrice": 16.0,
+        "rating": 4.7,
+        "dishes": [
+          {
+            "name": "招牌无骨酸菜鱼",
+            "price": 16.0,
+            "category": "快餐"
+          },
+          {
+            "name": "藤椒无骨酸菜鱼",
+            "price": 16.0,
+            "category": "快餐"
+          },
+          {
+            "name": "公举无骨番茄鱼",
+            "price": 16.0,
+            "category": "快餐"
+          }
+        ]
+      },
+      {
+        "name": "山城小面",
+        "averagePrice": 12.0,
+        "rating": 4.4,
+        "dishes": [
+          {
+            "name": "番茄鸡蛋面",
+            "price": 10.0,
+            "category": "面食"
+          },
+          {
+            "name": "红汤牛腩面",
+            "price": 15.0,
+            "category": "面食"
+          },
+          {
+            "name": "鸡丝凉面",
+            "price": 13.0,
+            "category": "面食"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "同德食堂",
+    "stalls": [
+      {
+        "name": "林记正宗隆江猪脚饭",
+        "averagePrice": 15.0,
+        "rating": 4.6,
+        "dishes": [
+          {
+            "name": "招牌隆江四点金饭",
+            "price": 18.0,
+            "category": "快餐"
+          },
+          {
+            "name": "招牌隆江猪脚饭",
+            "price": 13.0,
+            "category": "快餐"
+          },
+          {
+            "name": "豉油皇鸡腿饭",
+            "price": 13.0,
+            "category": "快餐"
+          }
+        ]
+      },
+      {
+        "name": "小街胡同牛杂面",
+        "averagePrice": 15.0,
+        "rating": 4.5,
+        "dishes": [
+          {
+            "name": "牛肚汤面",
+            "price": 15.0,
+            "category": "面食"
+          },
+          {
+            "name": "小街牛杂面",
+            "price": 13.0,
+            "category": "面食"
+          },
+          {
+            "name": "牛肉汤面",
+            "price": 15.0,
+            "category": "面食"
+          }
+        ]
+      },
+      {
+        "name": "潮汕原味汤粉·肠粉",
+        "averagePrice": 13.0,
+        "rating": 4.6,
+        "dishes": [
+          {
+            "name": "猪杂/瘦肉汤粉",
+            "price": 13.0,
+            "category": "粉类"
+          },
+          {
+            "name": "猪杂/瘦肉汤饭",
+            "price": 13.0,
+            "category": "快餐"
+          },
+          {
+            "name": "鸡蛋肠粉",
+            "price": 6.0,
+            "category": "粉类"
+          },
+          {
+            "name": "瘦肉肠粉",
+            "price": 6.0,
+            "category": "粉类"
+          }
+        ]
+      },
+      {
+        "name": "阿爽水饺饺子",
+        "averagePrice": 10.0,
+        "rating": 4.6,
+        "dishes": [
+          {
+            "name": "玉米鲜肉饺子",
+            "price": 10.0,
+            "category": "饺子"
+          },
+          {
+            "name": "香菇鲜肉饺",
+            "price": 10.0,
+            "category": "饺子"
+          },
+          {
+            "name": "韭菜鲜肉饺",
+            "price": 10.0,
+            "category": "饺子"
+          },
+          {
+            "name": "白菜鲜肉饺",
+            "price": 10.0,
+            "category": "饺子"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "幸福食堂",
+    "stalls": [
+      {
+        "name": "炊班主干蒸菜",
+        "averagePrice": 15.0,
+        "rating": 4.6,
+        "dishes": [
+          {
+            "name": "干蒸猪颈肉套餐",
+            "price": 15.9,
+            "category": "快餐"
+          },
+          {
+            "name": "干蒸排骨套餐",
+            "price": 15.9,
+            "category": "快餐"
+          },
+          {
+            "name": "干蒸沙姜鸡",
+            "price": 15.0,
+            "category": "快餐"
+          }
+        ]
+      },
+      {
+        "name": "湘小悦",
+        "averagePrice": 16.0,
+        "rating": 4.5,
+        "dishes": [
+          {
+            "name": "农家一碗香饭",
+            "price": 16.0,
+            "category": "快餐"
+          },
+          {
+            "name": "黄牛肉炒芹菜饭",
+            "price": 18.0,
+            "category": "快餐"
+          },
+          {
+            "name": "鹿茸菇小炒肉饭",
+            "price": 13.0,
+            "category": "快餐"
+          }
+        ]
+      },
+      {
+        "name": "重庆鸡公煲",
+        "averagePrice": 15.0,
+        "rating": 4.7,
+        "dishes": [
+          {
+            "name": "重庆鸡公煲",
+            "price": 15.0,
+            "category": "煲类"
+          },
+          {
+            "name": "排骨煲",
+            "price": 15.0,
+            "category": "煲类"
+          },
+          {
+            "name": "肥牛煲",
+            "price": 15.0,
+            "category": "煲类"
+          }
+        ]
+      },
+      {
+        "name": "大汉面馆",
+        "averagePrice": 11.0,
+        "rating": 4.6,
+        "dishes": [
+          {
+            "name": "番茄鸡蛋打卤面",
+            "price": 10.0,
+            "category": "面食"
+          },
+          {
+            "name": "意式肉酱拌面",
+            "price": 11.0,
+            "category": "面食"
+          },
+          {
+            "name": "泡椒杂酱面",
+            "price": 11.0,
+            "category": "面食"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "第五食堂",
+    "stalls": [
+      {
+        "name": "大众菜",
+        "averagePrice": 13.0,
+        "rating": 4.2,
+        "dishes": [
+          {
+            "name": "一荤两素",
+            "price": 13.0,
+            "category": "快餐"
+          },
+          {
+            "name": "两荤一素",
+            "price": 15.0,
+            "category": "快餐"
+          },
+          {
+            "name": "三素",
+            "price": 11.0,
+            "category": "快餐"
+          }
+        ]
+      },
+      {
+        "name": "昆吉双拼饭",
+        "averagePrice": 12.0,
+        "rating": 4.3,
+        "dishes": [
+          {
+            "name": "咖喱鸡腿肉饭",
+            "price": 11.8,
+            "category": "快餐"
+          },
+          {
+            "name": "照烧鸡腿肉饭",
+            "price": 11.8,
+            "category": "快餐"
+          },
+          {
+            "name": "港式绝味鸡饭",
+            "price": 11.8,
+            "category": "快餐"
+          }
+        ]
+      },
+      {
+        "name": "回味刀削面",
+        "averagePrice": 15.0,
+        "rating": 4.3,
+        "dishes": [
+          {
+            "name": "红烧牛肉刀削面",
+            "price": 16.0,
+            "category": "面食"
+          },
+          {
+            "name": "肉臊子鸡汤刀削面",
+            "price": 14.0,
+            "category": "面食"
+          },
+          {
+            "name": "炸酱刀削面",
+            "price": 14.0,
+            "category": "面食"
+          }
+        ]
+      },
+      {
+        "name": "壹味烧腊",
+        "averagePrice": 15.0,
+        "rating": 4.6,
+        "dishes": [
+          {
+            "name": "鸡腿拼手撕鸡饭",
+            "price": 16.0,
+            "category": "快餐"
+          },
+          {
+            "name": "隆江猪脚饭",
+            "price": 15.0,
+            "category": "快餐"
+          },
+          {
+            "name": "脆皮手撕鸡饭",
+            "price": 12.0,
+            "category": "快餐"
+          },
+          {
+            "name": "湛江白切鸡饭",
+            "price": 12.0,
+            "category": "快餐"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "第六食堂",
+    "stalls": [
+      {
+        "name": "泰味小厨",
+        "averagePrice": 12.0,
+        "rating": 4.6,
+        "dishes": [
+          {
+            "name": "泰式招牌照烧鸡肉饭",
+            "price": 11.0,
+            "category": "快餐"
+          },
+          {
+            "name": "泰式咖喱照烧鸡肉饭",
+            "price": 12.0,
+            "category": "快餐"
+          },
+          {
+            "name": "泰式咖喱黑椒鸡肉饭",
+            "price": 12.0,
+            "category": "快餐"
+          },
+          {
+            "name": "泰式咖喱双拼饭",
+            "price": 14.0,
+            "category": "快餐"
+          }
+        ]
+      },
+      {
+        "name": "亲情黔味蘸水菜",
+        "averagePrice": 16.0,
+        "rating": 4.2,
+        "dishes": [
+          {
+            "name": "鸡肉拼牛肉+基础款",
+            "price": 16.0,
+            "category": "快餐"
+          },
+          {
+            "name": "手打牛肉丸+基础款",
+            "price": 13.0,
+            "category": "快餐"
+          },
+          {
+            "name": "鸡肉拼猪肉+基础款",
+            "price": 15.0,
+            "category": "快餐"
+          },
+          {
+            "name": "鲜嫩牛肉片+基础款",
+            "price": 17.0,
+            "category": "快餐"
+          }
+        ]
+      },
+      {
+        "name": "一麻上岸麻辣烫",
+        "averagePrice": 14.0,
+        "rating": 4.5,
+        "dishes": [
+          {
+            "name": "招牌荤素单人套餐",
+            "price": 15.8,
+            "category": "麻辣烫"
+          },
+          {
+            "name": "素鲜一人食餐",
+            "price": 13.8,
+            "category": "麻辣烫"
+          },
+          {
+            "name": "满料单人套餐",
+            "price": 14.8,
+            "category": "麻辣烫"
+          }
+        ]
+      },
+      {
+        "name": "姆斯汉堡",
+        "averagePrice": 12.0,
+        "rating": 4.8,
+        "dishes": [
+          {
+            "name": "香蔬鸡肉堡4件套",
+            "price": 15.0,
+            "category": "汉堡"
+          },
+          {
+            "name": "黄金鸡排堡4件套",
+            "price": 11.0,
+            "category": "汉堡"
+          },
+          {
+            "name": "薯脆星星堡3件套",
+            "price": 12.0,
+            "category": "汉堡"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,53 @@
+CREATE TABLE IF NOT EXISTS app_user (
+ id BIGINT AUTO_INCREMENT PRIMARY KEY,
+ username VARCHAR(40) NOT NULL UNIQUE,
+ password_hash VARCHAR(100) NOT NULL,
+ display_name VARCHAR(40) NOT NULL,
+ role VARCHAR(10) NOT NULL CHECK (role IN ('STUDENT','ADMIN'))
+);
+CREATE TABLE IF NOT EXISTS canteen (
+ id BIGINT AUTO_INCREMENT PRIMARY KEY,
+ name VARCHAR(50) NOT NULL UNIQUE
+);
+CREATE TABLE IF NOT EXISTS stall (
+ id BIGINT AUTO_INCREMENT PRIMARY KEY,
+ canteen_id BIGINT NOT NULL,
+ name VARCHAR(50) NOT NULL,
+ collected_average_price DECIMAL(8,2),
+ collected_rating DECIMAL(2,1),
+ CONSTRAINT fk_stall_canteen FOREIGN KEY(canteen_id) REFERENCES canteen(id),
+ CONSTRAINT uq_stall_name UNIQUE(canteen_id,name)
+);
+CREATE TABLE IF NOT EXISTS dish (
+ id BIGINT AUTO_INCREMENT PRIMARY KEY,
+ stall_id BIGINT NOT NULL,
+ name VARCHAR(50) NOT NULL,
+ category VARCHAR(20) NOT NULL,
+ taste VARCHAR(20) NOT NULL DEFAULT '待核实',
+ price DECIMAL(8,2) NOT NULL CHECK(price >= 0),
+ image_url VARCHAR(200),
+ labels_verified BOOLEAN NOT NULL DEFAULT FALSE,
+ deleted BOOLEAN NOT NULL DEFAULT FALSE,
+ CONSTRAINT fk_dish_stall FOREIGN KEY(stall_id) REFERENCES stall(id)
+);
+CREATE TABLE IF NOT EXISTS review (
+ id BIGINT AUTO_INCREMENT PRIMARY KEY,
+ dish_id BIGINT NOT NULL,
+ user_id BIGINT NOT NULL,
+ score INT NOT NULL CHECK(score BETWEEN 1 AND 5),
+ comment VARCHAR(200) NOT NULL DEFAULT '',
+ updated_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+ CONSTRAINT uq_review_user_dish UNIQUE(dish_id,user_id),
+ CONSTRAINT fk_review_dish FOREIGN KEY(dish_id) REFERENCES dish(id),
+ CONSTRAINT fk_review_user FOREIGN KEY(user_id) REFERENCES app_user(id)
+);
+CREATE TABLE IF NOT EXISTS seed_history (
+ name VARCHAR(80) PRIMARY KEY,
+ applied_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
+CREATE TABLE IF NOT EXISTS dish_nutrition (
+ dish_id BIGINT PRIMARY KEY,
+ ingredients VARCHAR(500) NOT NULL,
+ calories INT NOT NULL CHECK(calories > 0),
+ CONSTRAINT fk_nutrition_dish FOREIGN KEY(dish_id) REFERENCES dish(id)
+);
